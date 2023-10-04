@@ -1,7 +1,6 @@
 body {
     font-family: "solid";
-    background-color: lightcyan;
-
+    background-color: rgb(36, 37, 37);
 }
 
 .input-section {
@@ -63,7 +62,6 @@ h1 {
     text-shadow: black;
     margin-top: 20px;
     margin-bottom: 20px;
-   
 }
 
 .button-section button:hover {
@@ -79,13 +77,14 @@ h1 {
     width:120px;
     color:white;
     text-align:center;
-
 }
 
-.data-container {
-    max-height: 310px;
-   
+.data-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 
 .card {
     border: 2px solid grey;
@@ -98,7 +97,8 @@ h1 {
     margin-top: 10px;
     margin-right: 20px;
     max-width: 900px;
-    overflow-y: scroll;
+    background-color: rgb(134, 231, 70);
+    
 
 }
 

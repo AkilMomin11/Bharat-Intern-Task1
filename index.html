@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="top-section">  
+    <h1>Content Management Tool</h1>
+    <img src=""/>
+  </div>
+
+  <div class="card">
+    <div class="input-section">
+      <b><label class="label-section" for="title">Title:</label></b>
+      <input class="div-section" type="text" id="title" placeholder="Enter title">
+    </div>
+    
+    <div class="input-section">
+      <b><label class="label-section" for="content">Content:</label></b>
+      <textarea class="div-content" cols="112"  id="content" placeholder="Enter content">
+      </textarea>
+    </div>
+
+    <div class="input-section">
+      <b><label class="label-section" for="image">Image:</label></b>
+      <input type="file" id="image" accept="image/*">
+    </div>
+
+    <div class="input-section">
+      <b><label class="label-section" for="video">Video:</label></b>
+      <input type="file" id="video" accept="video/*">
+    </div>
+  </div>
+
+  <div class="button-section">
+    <button onclick="submitData()">Submit</button>
+  </div>
+
+  <div class="data-container">
+    <div class="data-section" id="dataElement">
+    </div>
+  </div>
+</body>
+
+</html>
